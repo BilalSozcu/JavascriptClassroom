@@ -122,8 +122,8 @@ console.log(x && y && z);
 // const age = +prompt("Yasinizi giriniz:"); // ? prompt'un basina  + ekleyince number oldu veri tipi
 const name1 = prompt("Adinizi giriniz:");
 const age = Number(prompt("Yasinizi giriniz:")); // ? Veri tipi number
-// console.log("Yasiniz:" + age);
-// console.log(typeof age);
+console.log("Yasiniz:" + age);
+console.log(typeof age);
 age >= 18
   ? console.log(`${name1} ehliyet alabilir`)
   : console.log(`${name1} ehliyet alamaz`);
@@ -132,3 +132,5 @@ const result =
   age >= 18 ? `${name1} ehliyet alabilir` : `${name1} ehliyet alamaz`;
 
 console.log(result);
+const sayi4 = 41;
+console.log(String(sayi4), sayi4);
