@@ -1,0 +1,19 @@
+.container {
+  width: 100vw; /* viewport width => Trayici alaninin %100'u demek */
+  height: 100vh; /* viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.btn {
+  padding: 1rem;
+  background-color: darkturquoise;
+  border-radius: 1rem;
+}
+.btn:hover {
+  background-color: gold;
+}
+h1 {
+  background-color: white;
+}
