@@ -1,0 +1,27 @@
+/* COMMON */
+
+:root {
+  --color-primary: #905729;
+  --color-primary-hover: #693e1a;
+  --color-primary-transparent: #9057296c;
+}
+
+body {
+  font-family: "Montserrat";
+  position: relative;
+}
+
+a:hover {
+  color: var(--color-primary);
+}
+
+/* COMMON */
+
+/* SLIDER */
+.slider .carousel-item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/* SLIDER */
