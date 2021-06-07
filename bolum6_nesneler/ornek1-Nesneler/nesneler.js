@@ -2,11 +2,11 @@
 //            NESNELER (OBJECTS)
 //======================================================
 // Diziler sıralı bellek bölgeleridir. Dolayısıyla dizilere erişim indisleme ile yapılır.
-// Sıralı belleklere ihtiyaç varsa (structred) dizi kullanmak mantıklıdır.
-// Eğer veriler kompleks ise o zaman dizlerde erişim güçlüğü ortaya çıkar.
+// Sıralı belleklere ihtiyaç varsa (structured) dizi kullanmak mantıklıdır.
+// Eğer veriler kompleks ise o zaman dizilerde erişim güçlüğü ortaya çıkar.
 // ! OBJECT
 // Nesnelerde Key-value (property-value) yapısı kullanlır.
-// Nesnelerde aradıgımız veriyi erişmek için property adini kullanmak yeterlidir.
+// Nesnelerde aradıgımız veriye erişmek için property adini kullanmak yeterlidir.
 // Javascript proto-type bir dildir. Java class-based bir dildir.
 
 //  ! Object literal
@@ -21,7 +21,7 @@ console.log(insan);
 console.log(insan.ad); // .dot notasyonu ile verilere erisilebilir.
 
 // " " isareti olmasa da key'ler string mantigiyla calisir
-// Koseli parantez erisimi(koseli parantez icerisine nir expression yazmak mumkundur)
+// Koseli parantez erisimi(koseli parantez icerisine bir expression yazmak mumkundur)
 console.log(insan["yas"]);
 const yazi = "Adim";
 console.log(`${yazi} ${insan.ad} ve yasim ${insan["yas"]}'dur`);
@@ -65,7 +65,7 @@ const kisi = {
 // ? Arrow function'lar (lambda fonsiyonlari) icerisinde new veya this gibi
 // ? function expression yerine arrow function yazilirsa NaN doner
 // ! mülakat sorusu: lambda veya arrow fonksiyonlari klasik obje degiller.
-// ! klasik obje metodlarini this new gibi metodlar kullanilamaz
+// ! klasik obje metodlarini this new gibi metodlari kullanamaz
 
 const tarih = new Date();
 console.log(tarih);

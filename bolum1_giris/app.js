@@ -45,7 +45,7 @@ console.log(typeof fiyat);
 
 let isim1 = "Mustafa"; // Cift Tirnak
 let isim2 = "Ahmet"; // Tek Tirnak
-let isim3 = `Alican`; // Backthick
+let isim3 = `Alican`; // Backtick
 
 console.log(isim1);
 console.log(isim2);

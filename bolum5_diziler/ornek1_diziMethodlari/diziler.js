@@ -26,6 +26,7 @@ const h1 = document.getElementById("meyveler");
 let meyveler = ["Elma", "Armut", "Muz", "Kivi"];
 
 // pop() son elemani siler ve silinen elemani dondurur
+// console.log(meyveler.pop());
 meyveler.pop();
 
 //  push() dizinin sonuna bir eleman ekler.

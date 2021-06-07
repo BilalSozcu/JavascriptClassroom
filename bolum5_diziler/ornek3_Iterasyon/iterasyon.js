@@ -21,7 +21,7 @@ console.log(
 
 // const hayvanlar = ["fil", "deve", "kuş", "deve", "fare", "kedi", "deve"];
 // const ara = prompt("aramak istenilen hayvan türünü giriniz:");
-// // const ara = prompt("aramak istenilen hayvan türünü giriniz:").toLowerCase();
+// ** const ara = prompt("aramak istenilen hayvan türünü giriniz:").toLowerCase();
 // const bulDondur = function (ara) {
 //   let hayvanSayisi = 0;
 //   for (let i in hayvanlar) {
@@ -89,7 +89,7 @@ const rakamlar = [3, 5, 3, 2, 6, 7, 9];
 const ikikat = rakamlar.map((x) => x * 2);
 console.log(ikikat, rakamlar);
 
-// Ornek: Isimler dizisinin icerisindeki her bir oismi buyuk harf olarak
+// Ornek: Isimler dizisinin icerisindeki her bir ismi buyuk harf olarak
 // yeni bir diziye saklayalim
 const isimler = [
   "Ahmet",
@@ -167,7 +167,7 @@ console.log(tlFiyatlar.sort((x, y) => y - x));
 const maaslar = [3000, 5000, 4000, 6000, 6500];
 const zamliMaaslar = maaslar.filter((d) => d <= 4000).map((d) => d * 1.5);
 
-// Maasi 400'den buyuk olanlara %25 zam yaparak sonuclari yazdiralim
+// Maasi 4000'den buyuk olanlara %25 zam yaparak sonuclari yazdiralim
 const zamli4000 = maaslar
   .filter((d) => d > 4000)
   .map((d) => d * 1.25)

@@ -97,7 +97,7 @@ console.log(asalMi);
 // let not1,
 //   i = 1;
 // while (true) {
-//   // ? ==>true yerine 1==1 ya da 1 de yazilabilir
+//   ** ? ==>true yerine 1==1 ya da 1 de yazilabilir
 //   not1 = prompt(i + ".kisinin notunu giriniz:");
 //   not1 = not1.toLowerCase();
 //   if (not1 == "q") {

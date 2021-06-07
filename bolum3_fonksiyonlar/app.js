@@ -23,9 +23,9 @@ const yas = yasHesapla(1984);
 console.log(`Yasiniz: ${yas}`);
 
 // const sayi = prompt("Sayi giriniz");
-//   // Function declaration yontemi ile fonksiyonun tanimlanmasi cagrilmasindan
-//   // once veya sonra olabilir
-//   // console.log(tekCift(sayi));
+//   ** Function declaration yontemi ile fonksiyonun tanimlanmasi cagrilmasindan
+//   ** once veya sonra olabilir
+//   ** console.log(tekCift(sayi));
 // function tekCift(sayi) {
 //   const result = sayi % 2 == 0 ? "Cift" : "Tek";
 //   return result;

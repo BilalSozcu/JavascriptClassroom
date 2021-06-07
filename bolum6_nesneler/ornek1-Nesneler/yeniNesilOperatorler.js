@@ -47,7 +47,7 @@ const isimler = ["Ahmet", "Can", "Veli"];
 const isim1 = isimler[0];
 const isim2 = isimler[1];
 
-//  Dest
+//  Destructuring
 const [kisi1, kisi3] = isimler;
 console.log(kisi1, kisi3);
 
